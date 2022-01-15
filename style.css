@@ -1,0 +1,79 @@
+/* default styling */
+html {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* descendant selectors combinators */
+header h1 {
+  font-weight: 400;
+}
+
+header {
+    /* alligns content horizontal */
+  display: flex;
+  /* provides different options for spacing horizontally */
+  justify-content: space-between;
+  margin: 0px 3rem;
+}
+
+nav {
+  position: relative; /*important to edit positions*/
+  top: 1rem;
+  right: 4rem;
+  width: 20rem; /*navigation bar ki width change*/
+}
+
+li {
+  list-style: none;/*remove bulletins*/
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* class selectors */
+.showcase_img {
+  width: 95vw; /*important for responsiveness*/
+  margin: 1rem;
+}
+
+article {
+  /* allign all contents horizontally using flex */
+  display: flex;
+  margin: 1.5rem;
+}
+
+.container {
+/* allign text in center position */
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+h2 {
+  font-weight: 600;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  display: flex; /*horizontal positioning*/
+  justify-content: center;
+  align-items: center; /*vertically upar neeche*/
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none; /*remove underlines*/
+  color: black;
+}
+
+a:hover {
+  /*pseudo class with hover effect*/
+  color: brown; /*hover color*/
+  /* font-size: 2rem; */
+}
